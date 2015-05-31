@@ -1,0 +1,23 @@
+body {
+   background: cornflowerblue;
+}
+
+#snailbait-arena {
+   margin: 0 auto; /* centers the arena */
+   margin-top: 50px;
+   width:600px;
+   height:300px;
+}
+
+#snailbait-game-canvas {
+   border: 1.5px solid blue;
+}
+
+#fps {
+   position: absolute;
+   margin-top: -2em;
+   z-index: 1;
+   color: yellow;
+   text-shadow: 1px 1px 1px rgb(0,0,80);
+   font: bold 20px fantasy;
+}
